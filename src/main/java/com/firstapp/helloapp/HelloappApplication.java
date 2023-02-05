@@ -23,4 +23,9 @@ public class HelloappApplication {
 		return "We are at Azure";
 	}
 
+	@GetMapping("/privacy")
+	public String privacy() {
+		return "We are at Azure - Privacy Page";
+	}
+
 }
